@@ -12,4 +12,10 @@
         android:layout_height="wrap_content"
         android:text="SIMPLE" />
 
+    <Button
+        android:id="@+id/map_button"
+        android:text="MAP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

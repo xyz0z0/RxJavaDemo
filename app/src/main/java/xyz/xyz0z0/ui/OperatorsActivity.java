@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import xyz.xyz0z0.myapplication.R;
+import xyz.xyz0z0.ui.operators.MapExampleActivity;
 import xyz.xyz0z0.ui.operators.SimpleExampleActivity;
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -21,6 +22,14 @@ public class OperatorsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(OperatorsActivity.this, SimpleExampleActivity.class));
+            }
+        });
+
+        Button btnMap = findViewById(R.id.map_button);
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, MapExampleActivity.class));
             }
         });
     }

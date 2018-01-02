@@ -18,7 +18,8 @@
         </activity>
         <activity android:name="xyz.xyz0z0.rxjava.RxJavaActivity" />
         <activity android:name="xyz.xyz0z0.ui.OperatorsActivity" />
-        <activity android:name="xyz.xyz0z0.ui.operators.SimpleExampleActivity"></activity>
+        <activity android:name="xyz.xyz0z0.ui.operators.SimpleExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.MapExampleActivity"></activity>
     </application>
 
 </manifest>
