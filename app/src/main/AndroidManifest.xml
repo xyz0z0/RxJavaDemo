@@ -24,7 +24,9 @@
         <activity android:name="xyz.xyz0z0.ui.operators.DisposableExampleActivity" />
         <activity android:name="xyz.xyz0z0.ui.operators.TakeExampleActivity" />
         <activity android:name="xyz.xyz0z0.ui.operators.TimerExampleActivity" />
-        <activity android:name="xyz.xyz0z0.ui.operators.IntervalExampleActivity"></activity>
+        <activity android:name="xyz.xyz0z0.ui.operators.IntervalExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.SingleObserverActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.CompletableActivity"></activity>
     </application>
 
 </manifest>

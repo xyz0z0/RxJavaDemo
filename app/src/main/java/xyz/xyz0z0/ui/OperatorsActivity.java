@@ -7,10 +7,12 @@ import android.view.View;
 import android.widget.Button;
 
 import xyz.xyz0z0.myapplication.R;
+import xyz.xyz0z0.ui.operators.CompletableActivity;
 import xyz.xyz0z0.ui.operators.DisposableExampleActivity;
 import xyz.xyz0z0.ui.operators.IntervalExampleActivity;
 import xyz.xyz0z0.ui.operators.MapExampleActivity;
 import xyz.xyz0z0.ui.operators.SimpleExampleActivity;
+import xyz.xyz0z0.ui.operators.SingleObserverActivity;
 import xyz.xyz0z0.ui.operators.TakeExampleActivity;
 import xyz.xyz0z0.ui.operators.TimerExampleActivity;
 import xyz.xyz0z0.ui.operators.ZipExampleActivity;
@@ -74,6 +76,20 @@ public class OperatorsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(OperatorsActivity.this, IntervalExampleActivity.class));
+            }
+        });
+        Button btnSingleObserver = findViewById(R.id.btnSingleObserver);
+        btnSingleObserver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, SingleObserverActivity.class));
+            }
+        });
+        Button btnCompletable = findViewById(R.id.btnCompletable);
+        btnCompletable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, CompletableActivity.class));
             }
         });
     }
