@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import xyz.xyz0z0.myapplication.R;
 import xyz.xyz0z0.ui.operators.DisposableExampleActivity;
+import xyz.xyz0z0.ui.operators.IntervalExampleActivity;
 import xyz.xyz0z0.ui.operators.MapExampleActivity;
 import xyz.xyz0z0.ui.operators.SimpleExampleActivity;
 import xyz.xyz0z0.ui.operators.TakeExampleActivity;
@@ -65,6 +66,14 @@ public class OperatorsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(OperatorsActivity.this, TimerExampleActivity.class));
+            }
+        });
+
+        Button btnInterval = findViewById(R.id.btnInterval);
+        btnInterval.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, IntervalExampleActivity.class));
             }
         });
     }
