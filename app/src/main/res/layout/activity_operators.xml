@@ -14,8 +14,32 @@
 
     <Button
         android:id="@+id/map_button"
-        android:text="MAP"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="MAP" />
+
+    <Button
+        android:id="@+id/zip_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZIP" />
+
+    <Button
+        android:id="@+id/disposable_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disposable" />
+
+    <Button
+        android:id="@+id/take_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take" />
+
+    <Button
+        android:id="@+id/timer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timer" />
 
 </LinearLayout>

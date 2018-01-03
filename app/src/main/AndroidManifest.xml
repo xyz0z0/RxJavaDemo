@@ -19,7 +19,11 @@
         <activity android:name="xyz.xyz0z0.rxjava.RxJavaActivity" />
         <activity android:name="xyz.xyz0z0.ui.OperatorsActivity" />
         <activity android:name="xyz.xyz0z0.ui.operators.SimpleExampleActivity" />
-        <activity android:name="xyz.xyz0z0.ui.operators.MapExampleActivity"></activity>
+        <activity android:name="xyz.xyz0z0.ui.operators.MapExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.ZipExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.DisposableExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.TakeExampleActivity" />
+        <activity android:name="xyz.xyz0z0.ui.operators.TimerExampleActivity"></activity>
     </application>
 
 </manifest>
