@@ -7,10 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 import xyz.xyz0z0.myapplication.R;
+import xyz.xyz0z0.ui.operators.BufferExampleActivity;
 import xyz.xyz0z0.ui.operators.CompletableActivity;
 import xyz.xyz0z0.ui.operators.DisposableExampleActivity;
+import xyz.xyz0z0.ui.operators.FlowableExampleActivity;
 import xyz.xyz0z0.ui.operators.IntervalExampleActivity;
 import xyz.xyz0z0.ui.operators.MapExampleActivity;
+import xyz.xyz0z0.ui.operators.ReduceExampleActivity;
 import xyz.xyz0z0.ui.operators.SimpleExampleActivity;
 import xyz.xyz0z0.ui.operators.SingleObserverActivity;
 import xyz.xyz0z0.ui.operators.TakeExampleActivity;
@@ -92,5 +95,32 @@ public class OperatorsActivity extends AppCompatActivity {
                 startActivity(new Intent(OperatorsActivity.this, CompletableActivity.class));
             }
         });
+        Button btnFlowable = findViewById(R.id.btnFlowable);
+        btnFlowable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, FlowableExampleActivity.class));
+            }
+        });
+
+        Button btnReduce = findViewById(R.id.btnReduce);
+        btnReduce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, ReduceExampleActivity.class));
+            }
+        });
+
+        Button btnBuffer = findViewById(R.id.btnBuffer);
+        btnBuffer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OperatorsActivity.this, BufferExampleActivity.class));
+            }
+        });
+
+
     }
+
+
 }
